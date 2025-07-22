@@ -1,5 +1,5 @@
 package com.example.beans;
-
+//used comonent
 import org.springframework.stereotype.Component;
 
 @Component
