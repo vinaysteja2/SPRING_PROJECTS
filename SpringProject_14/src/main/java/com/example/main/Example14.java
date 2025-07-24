@@ -1,13 +1,12 @@
 package com.example.main;
 
-import com.example.beans.Person;
-import com.example.beans.Vehicle;
-import com.example.config.ProjectConfig;
-import com.example.services.VehicleServices;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class Example14 {
+import com.example.config.ProjectConfig;
+import com.example.services.VehicleServices;
 
+public class Example14 {
+// these are related to singleton beans example
     public static void main(String[] args) {
         var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
         VehicleServices vehicleServices1 = context.getBean(VehicleServices.class);
